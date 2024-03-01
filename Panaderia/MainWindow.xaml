@@ -1,0 +1,35 @@
+﻿<Window x:Class="Panaderia.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Panaderia"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel Background=" #FFD23F">
+        <TextBlock Foreground="White" FontSize="30" Background="#EE4266">Panaderia Minari</TextBlock>
+        <Label Height="50" FontSize="30" Background=" #611e2d" Foreground="White" HorizontalAlignment="Center">Productos Disponibles:</Label>
+        <UniformGrid Background="AliceBlue" Columns="4" Height="90">
+            <Button Background="Transparent">
+                <Image Source="https://cdn-icons-png.flaticon.com/512/3225/3225822.png"/>
+            </Button>
+            <Button Background="Transparent">
+                <Image Source="https://cdn-icons-png.flaticon.com/512/2794/2794389.png"/>
+            </Button>
+            <Button Background="Transparent">
+            <Image Source="https://cdn-icons-png.flaticon.com/512/808/808787.png"/>
+            </Button>
+            <Button Background="Transparent">
+                <Image Source="https://cdn-icons-png.flaticon.com/512/4852/4852758.png"/>
+            </Button>
+        </UniformGrid>
+        <UniformGrid Columns="4" Height="20">
+            <TextBlock Foreground="Black" FontSize="17" TextAlignment="Center">Pan Blanco</TextBlock>
+            <TextBlock FontSize="17" TextAlignment="Center">Empanada</TextBlock>
+            <TextBlock Foreground="White" FontSize="17" TextAlignment="Center">Croissant</TextBlock>
+            <TextBlock Foreground="White" FontSize="17" TextAlignment="Center">Rollo Glaseado</TextBlock>
+        </UniformGrid>
+        <TextBlock Height="235" Background="#337357"></TextBlock>
+        <Button></Button>
+    </StackPanel>
+</Window>
